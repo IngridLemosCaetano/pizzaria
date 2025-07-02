@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffe5b4;
+    height: 100vh;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 50px;
+    align-items: center;
+
+}
+.animation{
+    width: 900px;
+}
+h2{
+    color: #ff6347;
+    font-size: 32px;
+}
+a{
+    text-decoration: none;
+    text-align: center;
+    background-color: #ff6347;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+    transition: 0.4s;
+}
+a:hover{
+    background-color: #e5533d;
+}
